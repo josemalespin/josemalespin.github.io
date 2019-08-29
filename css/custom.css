@@ -1,0 +1,304 @@
+.intro-text {
+    text-align: left;
+}
+
+h1,
+h3,
+h4 {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.text-black {
+    color: #000000 !important;
+}
+
+section {
+    padding: 50px 0!important;
+}
+
+.vegetales-img{
+    position: absolute;
+    top: -95px;
+    left: -152px;
+    width: 35%;
+}
+.tablet-img{
+    position: absolute;
+    top: -95px;
+    right: -200px;
+    width: 35%;
+}
+
+/* p,
+button {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600 !important;
+} */
+
+.text-bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 45px;
+}
+
+h4 {
+    font-size: 0.9em;
+}
+
+.intro-text h1 span {
+    color: rgb(193, 246, 29);
+}
+
+.colors-info p {
+    font-size: 0.95em;
+}
+
+.colors-info ul li {
+    font-size: 0.95em;
+}
+
+.instruction-btn {
+    font-size: 12px;
+    padding: 8px 20px;
+    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', serif !important;
+    font-weight: 400;
+}
+
+.siema {
+    margin: 1rem 0;
+    margin-top: -170px;
+}
+
+.siema img {
+    width: 100%;
+}
+
+.gray-bg {
+    background: #e7e7e7;
+}
+
+.orange-bg {
+    background-image: radial-gradient(circle, #e8ae18, #e7a10d, #e69404, #e58700, #e37a00);
+}
+
+.blue-bg {
+    background-image: radial-gradient(circle, #0095ab, #00819a, #006e88, #005b75, #024962);
+}
+
+.green-bg {
+    background-image: radial-gradient(circle, #00a855, #01964b, #028441, #027337, #02622e);
+}
+
+.btn-orange {
+    background-color: #ce5c00;
+    color: white;
+}
+
+.play-btn {
+    width: 45px;
+    margin-right: 15px;
+}
+
+/* Bottom right text */
+.bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    color: white;
+}
+
+.little-arrow {
+    text-align: center;
+    width: 25px;
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+}
+
+.countries-img .row>div img {
+    box-shadow: inset 0 0 40px #000000;
+}
+
+.img-colors1 img,
+.img-colors2 img,
+.img-colors3 img {
+    height: 650px;
+}
+
+.logo-container {
+    background: white;
+    text-align: left !important;
+}
+
+.logo-container div img {
+    width: 250px;
+    margin: 5px;
+    text-align: left !important;
+}
+
+.btn-outline-light.btn-block,
+.btn-orange.btn-block,
+.btn-orange.btn-block {
+
+    font-size: 14px;
+}
+
+.pilot-program {
+    color: #c87705;
+    font-size: 25px;
+}
+
+.pilot-program-register {
+    font-style: normal !important;
+    font-size: 25px !important;
+}
+
+.gray-text {
+    color: #888888
+}
+
+.page-section h3.section-subheading {
+    font-style: normal !important;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+
+}
+
+.page-section {
+    padding: 50px 0 !important;
+}
+
+.img-container{
+    position: relative;
+}
+
+.ul-red-dots {
+    list-style-image: url('/img/reddot.svg');
+}
+
+.ul-yellow-dots {
+    list-style-image: url('/img/yellowdot.svg');
+}
+
+/*Diseño responsivo*/
+/*De 1200 para arriba*/
+@media (min-width: 1200px) {
+    header.masthead .intro-text {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    header.masthead .intro-text {
+        padding-top: 120px;
+        padding-bottom: 150px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .img-colors1 img,
+    .img-colors2 img,
+    .img-colors3 img {
+        height: 510px;
+    }
+}
+
+/*De 768 a 1369*/
+@media (min-width: 768px) and (max-width: 990px) {
+    header.masthead .intro-text {
+        padding-top: 120px;
+        padding-bottom: 150px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        max-width: 870px;
+    }
+
+    .img-colors1 img,
+    .img-colors2 img,
+    .img-colors3 img {
+        height: 450px;
+    }
+
+    #img-header {
+        width: 500px;
+    }
+
+    .btn-orange.btn-block,
+    .btn-outline-light.btn-block {
+        font-size: 10px;
+    }
+
+    .first-info {
+        font-size: 14px;
+    }
+
+    .siema {
+        margin-top: -170px;
+    }
+}
+
+/*De 768 a 1369*/
+@media (min-width: 0px) and (max-width: 767px) {
+    header.masthead .intro-text {
+        padding-top: 120px;
+        padding-bottom: 150px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .orange-bg h1,
+    .blue-bg h1,
+    .green-bg h1 {
+        text-align: left;
+    }
+
+    .orange-bg,
+    .blue-bg,
+    .green-bg {
+        margin: 0 !important;
+    }
+
+    .how-works {
+        text-align: center;
+    }
+
+    #img-header {
+        width: 385px;
+        margin: 0 auto;
+    }
+
+    .center-image {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .siema {
+        margin-top: -170px;
+    }
+}
